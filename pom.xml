@@ -38,13 +38,13 @@
 				<configuration>
 				   <cloudHubDeployment>
 				     <uri>https://anypoint.mulesoft.com/</uri>
-				     <muleVersion></muleVersion>
-				     <username></username>
-				     <password></password>
-				     <applicationName></applicationName>
-				     <environment></environment>
-				     <workerType></workerType>
-				     <objectStoreV2></objectStoreV2>
+				     <muleVersion>4.3.0</muleVersion>
+				     <username>amir11</username>
+				     <password>Amir122306</password>
+				     <applicationName>Amir122306</applicationName>
+				     <environment>Sandbox</environment>
+				     <workerType>MICRO</workerType>
+				     <objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 			</configuration>
 			</plugin>
