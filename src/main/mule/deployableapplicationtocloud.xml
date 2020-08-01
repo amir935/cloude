@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<configuration-properties doc:name="Configuration properties" doc:id="7959c45c-5a13-4e3f-99c7-56357f5fc05a" file="http.yaml" />
 	<flow name="deployableapplicationtocloudFlow" doc:id="7a9c88f7-c903-4937-b1c2-6d14a4300aec" >
 		<http:listener doc:name="Listener" doc:id="47b21145-a097-4571-aa13-6488dc2ac32f" config-ref="HTTP_Listener_config" path="/path"/>
-		<set-payload value='#["deploy application to cloudhub"]' doc:name="Set Payload" doc:id="f1654a37-d9e0-4802-ace6-ab3fe2839011" />
+		<set-payload value='#["deploy application to Runtime manager"]' doc:name="Set Payload" doc:id="f1654a37-d9e0-4802-ace6-ab3fe2839011" />
 	</flow>
 </mule>
