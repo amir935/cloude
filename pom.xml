@@ -41,8 +41,8 @@
 				     <muleVersion>4.3.0</muleVersion>
 				     <username>amir11</username>
 				     <password>Amir122306</password>
-				     <applicationName>deployableapplicationtocloud</applicationName>
-				     <environment>Sandbox</environment>
+				     <applicationName> deployedexample</applicationName>
+				     <environment>amirdev</environment>
 				     <workerType>MICRO</workerType>
 				     <objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
